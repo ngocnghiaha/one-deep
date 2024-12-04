@@ -1,0 +1,30 @@
+{
+  "name": "one-deep",
+  "displayName": "One Deep",
+  "description": "A variation of One Dark, but darker",
+  "version": "0.0.1",
+  "icon": "icon.png",
+  "publisher": "NgocNghiaHa",
+  "author": {
+    "name": "Ngoc Nghia Ha",
+    "email": "nghiaha.22022003@gmail.com"
+  },
+  "repository": {
+    "url": "https://github.com/ngocnghiaha/one-deep.git"
+  },
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "One Deep",
+        "uiTheme": "vs-dark",
+        "path": "./themes/One-Deep-color-theme.json"
+      }
+    ]
+  }
+}
